@@ -1,7 +1,7 @@
 # Basic-CRUD-App
 
-Compile :
+## **Compile :**
 javac -d out src\*.java
 
-Run :
+## **Run :**
 java -cp out MainServer
