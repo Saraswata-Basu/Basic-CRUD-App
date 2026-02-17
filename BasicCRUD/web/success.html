@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Confirmed</title>
+    <link rel="stylesheet" href="/style/success.css">
+</head>
+<body>
+    <div class="card">
+        <div class="success-icon">✓</div>
+        <h1>Payment Successful!</h1>
+        <div class="order-details">
+            <p><strong>Order placed by:</strong> {{name}}</p>
+            <p><strong>Delivery Address:</strong> {{address}}</p>
+            <p><strong>Total Amount:</strong> ₹{{total}}</p>
+        </div>
+        <p class="message">Your order has been confirmed and will be delivered soon.</p>
+        <a href="/bill.txt" class="download-button" download>Download Bill (Text)</a>
+        <div class="footer">
+            <a href="/products" class="link">Continue Shopping</a>
+        </div>
+    </div>
+    <script src="/js/success.js"></script>
+</body>
+</html>

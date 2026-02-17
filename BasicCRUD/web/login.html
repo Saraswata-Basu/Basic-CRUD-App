@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Basic Grocery Store</title>
+  <link rel="stylesheet" href="/style/login.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Log in</h1>
+    <form action="/login" method="post">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" required>
+
+      <button>Login</button>
+    </form>
+
+    <p class="hint">
+      New user? <a href="/register">Create an account</a>.
+    </p>
+  </div>
+</body>
+</html>

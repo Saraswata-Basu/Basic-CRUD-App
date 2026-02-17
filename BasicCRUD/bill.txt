@@ -1,0 +1,9 @@
+===== GROCERY STORE BILL =====
+Customer Name: Saraswata
+Customer Email: saraswata@gmail.com
+
+Milk | Qty: 1
+
+Total: ₹30.0
+Delivery Address: 48/28B South Sinthee Road
+Status: Order Shipped
